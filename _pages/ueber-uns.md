@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Über uns
 image: '/images/pages/1.jpg'
 ---
 
