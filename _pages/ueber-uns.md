@@ -1,6 +1,6 @@
 ---
 layout: page
-image: images/ueber-uns.jpg
+image: /images/ueber-uns.jpg
 title: Über uns
 ---
 Der **Initiativkreis Riebeckstraße 63** hat sich am 3. Juli 2019 am historischen Ort der ehemaligen städtischen Arbeitsanstalt gegründet. Das Bündnis aus über 30 Einzelpersonen, zivilgesellschaftlichen, städtischen und wissenschaftlichen Akteuren setzt sich für die Gestaltung eines lebendigen Erinnerungsortes ein. Zentral ist unsere Forderung nach einem Gedenken und Lernen **am authentischen Ort** – betreibt der heutige Träger des Geländes, der Städtische Eigenbetrieb Behindertenhilfe (SEB) hier zurzeit noch eine Gemeinschaftsunterkunft für Geflüchtete und ein Wohnprojekt für Kinder und Jugendliche, werden Gebäudeteile in Zukunft zur Disposition stehen.
