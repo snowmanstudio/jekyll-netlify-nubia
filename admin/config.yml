@@ -36,6 +36,8 @@ collections: # A list of collections the CMS should be able to edit
     folder: "_pages"
     sort: "title:asc"
     create: false
+    editor:
+      preview: false
     slug: "{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
