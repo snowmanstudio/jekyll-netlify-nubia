@@ -1,13 +1,18 @@
 <li class='c-nav__item'>
-  <a href='{{ site.baseurl }}/' class='c-nav__link'>Home</a>
+<a href='/' class='c-nav__link'>Geschichte des Ortes</a>
 </li>
-
-{% for page in site.pages %}
-  {% unless page.name == '404.md' %}
-    {% if page.title %}
-      <li class='c-nav__item'>
-        <a href='{{ page.url | prepend: site.baseurl }}' class='c-nav__link'>{{ page.title }}</a>
-      </li>
-    {% endif %}
-  {% endunless %}
-{% endfor %}
+<li class='c-nav__item'>
+<a href='/ueber-uns.html' class='c-nav__link'>Über uns</a>
+</li>
+<li class='c-nav__item'>
+<a href='/aktuelles.html' class='c-nav__link'>Aktuelles</a>
+</li>
+<li class='c-nav__item'>
+<a href='/bilddokumentation.html' class='c-nav__link'>Bilddokumentation</a>
+</li>
+<li class='c-nav__item'>
+<a href='/texte.html' class='c-nav__link'>Texte</a>
+</li>
+<li class='c-nav__item'>
+<a href='/kontakt.html' class='c-nav__link'>Kontakt</a>
+</li>
