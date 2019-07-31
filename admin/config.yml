@@ -12,7 +12,7 @@ publish_mode: editorial_workflow # Enable drafts
 collections: # A list of collections the CMS should be able to edit
   # PAGES
   - name: "page"
-    label: "Page"
+    label: "Seiten"
     folder: "_pages"
     sort: "title:asc"
     create: false
