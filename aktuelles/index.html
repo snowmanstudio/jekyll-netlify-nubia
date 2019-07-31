@@ -9,6 +9,7 @@ layout: default
     
 {% for post in site.posts %}
   {% if post.categories contains 'aktuelles' %}
+    {% include post-card.html %}
   {% endif %}
 {% endfor %}
   </div>
