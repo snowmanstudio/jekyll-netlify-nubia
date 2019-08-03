@@ -11,22 +11,47 @@ publish_mode: editorial_workflow # Enable drafts
 
 collections: # A list of collections the CMS should be able to edit
   # PAGES
-  - name: "page"
-    label: "Seiten"
-    folder: "_pages"
-    sort: "title:asc"
-    create: false
-    editor:
-      preview: false
-    slug: "{{slug}}"
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-      - {label: "Image", name: "image", widget: "string", required: false}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Permalink", name: "permalink", widget: "hidden"}
-      - {label: "Section", name: "section", widget: "hidden", default: "{{name}}"}
-      #- {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
+  - label: "Seiten"
+    name: "seiten"
+    files:
+      - label: "Geschichte des Ortes"
+        name: "geschichte"
+        file: "_pages/index.md"
+        editor:
+          preview: false
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+          - {label: "Image", name: "image", widget: "string", required: false}
+          - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+      - label: "Über uns"
+        name: "ueber-uns"
+        file: "_pages/ueber-uns.md"
+        editor:
+          preview: false
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+          - {label: "Image", name: "image", widget: "string", required: false}
+          - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+      - label: "Bilddokumentation"
+        name: "bilddokumentation"
+        file: "_pages/bilddokumentation.md"
+        editor:
+          preview: false
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "bilddokumentation"}
+          - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+      - label: "Kontakt"
+        name: "kontakt"
+        file: "_pages/kontakt.md"
+        editor:
+          preview: false
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "kontakt"}
+          - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
   # Aktuelles
   - name: "aktuelles" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Aktuelles" # Used in the UI, ie.: "New Post"
