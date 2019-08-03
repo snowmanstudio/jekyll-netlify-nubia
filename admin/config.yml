@@ -13,12 +13,12 @@ collections: # A list of collections the CMS should be able to edit
   # PAGES
   - label: "Seiten"
     name: "seiten"
+    editor:
+      preview: false
     files:
       - label: "Geschichte des Ortes"
         name: "geschichte"
         file: "_pages/index.md"
-        editor:
-          preview: false
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
           - {label: "Image", name: "image", widget: "string", required: false}
@@ -27,8 +27,6 @@ collections: # A list of collections the CMS should be able to edit
       - label: "Über uns"
         name: "ueber-uns"
         file: "_pages/ueber-uns.md"
-        editor:
-          preview: false
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
           - {label: "Image", name: "image", widget: "string", required: false}
@@ -37,8 +35,6 @@ collections: # A list of collections the CMS should be able to edit
       - label: "Bilddokumentation"
         name: "bilddokumentation"
         file: "_pages/bilddokumentation.md"
-        editor:
-          preview: false
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "bilddokumentation"}
           - {label: "Title", name: "title", widget: "string", tagname: "h1"}
@@ -46,8 +42,6 @@ collections: # A list of collections the CMS should be able to edit
       - label: "Kontakt"
         name: "kontakt"
         file: "_pages/kontakt.md"
-        editor:
-          preview: false
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "kontakt"}
           - {label: "Title", name: "title", widget: "string", tagname: "h1"}
