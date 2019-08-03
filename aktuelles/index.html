@@ -7,9 +7,7 @@ layout: default
   <div class='o-grid js-grid'>
     
 {% for post in site.posts %}
-  {% if post.categories contains 'aktuelles' %}
     {% include post-card.html %}
-  {% endif %}
 {% endfor %}
   </div>
 
