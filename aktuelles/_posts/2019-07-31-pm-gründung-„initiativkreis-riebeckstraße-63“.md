@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'PM: Gründung „Initiativkreis Riebeckstraße 63“ '
-date: 08.07.2019
+date: '2019-07-08 19:00:00'
 ---
 ![](/images/kontakt.jpg)
 
