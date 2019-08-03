@@ -2,26 +2,15 @@
 layout: default
 ---
 
+
 <div class='o-wrapper'>
   <div class='o-grid js-grid'>
-  <h5 class='c-widget__title'>Aktuelles</h5>
-
-  {% for post in site.posts %}
-    {% if post.categories contains 'aktuelles' %}
-      <a href='{{ post.url }}' class='c-teaser'>
-        <div class='c-teaser__content'>
-          <h3 class='c-teaser__title'>{{ post.title }}</h3>
-          <time class='c-teaser__date' datetime='{{ post.date | date: '%d %b %Y' }}' title='{{ post.date | date: '%d %b %Y' }}'>{{ post.date | date: '%d %b %Y' }}</time>
-        </div>
-        {% if post.image %}
-          <div class='c-teaser__media'>
-            <div class='c-teaser__image js-fadein' style='background-image: url({{ post.image | prepend: site.baseurl }})' aria-label='{{ post.title }}'></div>
-          </div>
-        {% endif %}
-      </a>
-    {% endif %}
-  {% endfor %}
-  
+    
+{% for post in site.posts %}
+  {% if post.categories contains 'aktuelles' %}
+    {% include post-card.html %}
+  {% endif %}
+{% endfor %}
   </div>
 
 </div>
