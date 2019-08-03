@@ -1,10 +1,9 @@
 ---
 layout: post
+image: images/kontakt.jpg
 title: 'PM: Gründung „Initiativkreis Riebeckstraße 63“ '
 date: '2019-07-08 19:00:00'
 ---
-![](/images/kontakt.jpg)
-
 Letzten Mittwoch, am 3. Juli 2019 hat sich am historischen Ort ein Initiativkreis aus rund 30 engagierten Einzelpersonen gegründet. Der offene Kreis wird sich in Zukunft für **ein Lernen und Gedenken am Ort der ehemaligen städtischen Arbeitsanstalt** in der Riebeckstraße 63 einsetzen. 
 
 Hintergrund des **Auftakt- und Gründungstreffens** ist ein Stadtratsbeschluss von Mai 2018, der die Leipziger Stadtverwaltung damit beauftragte, in Zusammenarbeit mit dem Sächsischen Psychiatriemuseum und der Gedenkstätte für Zwangsarbeit Leipzig dauerhaft und sichtbar an die Geschichte der Riebeckstraße 63 zu erinnern. Denn die städtische Arbeitsanstalt war über ein Jahrhundert hinweg Akteur einer repressiven kommunalen Gesundheits- und Sozialpolitik. Als Arbeitshaus 1892 eröffnet, verschärfte sich die kommunale ‚Fürsorge‘ während der NS-Zeit zunehmend, das Gelände wurde außerdem als Sammel- und Durchgangslager genutzt, sodass sämtliche NS-Verfolgtengruppen die Riebeckstraße passierten. Zu DDR-Zeiten war in den Gebäuden eine Venerologische Station sowie eine Abteilung der Psychiatrie untergebracht. Einrichtungen, deren zentrale Funktion die der sozialen Disziplinierung war. Heutiger Träger des Geländes ist der Städtische Eigenbetrieb Behindertenhilfe (SEB), der hier eine Gemeinschaftsunterkunft für Geflüchtete und ein Wohnprojekt für Kinder und Jugendliche betreibt.
