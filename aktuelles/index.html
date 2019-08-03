@@ -2,11 +2,9 @@
 layout: default
 ---
 
-<h2>Aktuelles</h2>
-
 <div class='o-wrapper'>
   <div class='o-grid js-grid'>
-    
+    <h2>Aktuelles</h2>
 {% for post in site.posts %}
   {% if post.categories contains 'aktuelles' %}
     {% include post-card.html %}
