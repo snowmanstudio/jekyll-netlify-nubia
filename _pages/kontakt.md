@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: kontakt
 image: /images/kontakt.jpg
 title: Kontakt
 ---
