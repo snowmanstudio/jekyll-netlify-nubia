@@ -1,6 +1,6 @@
 ---
 layout: post
-category: texte
+categories: texte
 title: Beispieltext II
 date: '2019-08-03 19:22:18'
 ---
