@@ -1,6 +1,6 @@
 ---
 layout: post
-category: texte
+categories: texte
 image: /images/plan.jpg
 title: >-
   Verfolgung – Ausgrenzung – Verwahrung. Die ehemalige städtische Arbeitsanstalt
