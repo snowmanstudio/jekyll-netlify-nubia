@@ -50,7 +50,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "aktuelles" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Aktuelles" # Used in the UI, ie.: "New Post"
     folder: "_posts" # The path to the folder where the documents are stored
-    filter: {field: "category", value: "aktuelles"}
+    filter: {field: "categories", value: "aktuelles"}
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     editor:
@@ -58,7 +58,7 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Category", name: "category", widget: "hidden", default: "aktuelles"}
+      - {label: "Category", name: "categories", widget: "hidden", default: "aktuelles"}
       - {label: "Image (/images/name-des-bildes.jpg)", name: "image", widget: "string", required: false}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
@@ -69,7 +69,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "texte" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Texte" # Used in the UI, ie.: "New Post"
     folder: "_posts" # The path to the folder where the documents are stored
-    filter: {field: "category", value: "texte"}
+    filter: {field: "categories", value: "texte"}
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     editor:
@@ -77,7 +77,7 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Category", name: "category", widget: "hidden", default: "texte"}
+      - {label: "Category", name: "categories", widget: "hidden", default: "texte"}
       - {label: "Image (/images/name-des-bildes.jpg)", name: "image", widget: "string", required: false}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
