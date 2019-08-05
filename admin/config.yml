@@ -58,7 +58,7 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      #- {label: "Category", name: "category", widget: "hidden", default: "aktuelles"}
+      - {label: "Category", name: "category", widget: "hidden", default: "aktuelles"}
       - {label: "Image", name: "image", widget: "string", required: false}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
@@ -77,7 +77,7 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      #- {label: "Category", name: "category", widget: "hidden", default: "texte"}
+      - {label: "Category", name: "category", widget: "hidden", default: "texte"}
       - {label: "Image", name: "image", widget: "string", required: false}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
