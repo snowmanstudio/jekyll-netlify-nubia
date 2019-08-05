@@ -49,7 +49,8 @@ collections: # A list of collections the CMS should be able to edit
   # Aktuelles
   - name: "aktuelles" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Aktuelles" # Used in the UI, ie.: "New Post"
-    folder: "aktuelles/_posts" # The path to the folder where the documents are stored
+    folder: "_posts" # The path to the folder where the documents are stored
+    filter: {field: "category", value: "aktuelles"}
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     editor:
@@ -67,7 +68,8 @@ collections: # A list of collections the CMS should be able to edit
   # Texte
   - name: "texte" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Texte" # Used in the UI, ie.: "New Post"
-    folder: "texte/_posts" # The path to the folder where the documents are stored
+    folder: "_posts" # The path to the folder where the documents are stored
+    filter: {field: "category", value: "texte"}
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     editor:
