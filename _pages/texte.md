@@ -1,0 +1,4 @@
+---
+layout: texte
+title: Texte
+---
