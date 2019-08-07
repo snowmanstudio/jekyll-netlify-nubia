@@ -108,6 +108,7 @@
 
   &__title {
     clear: both;
+    margin-top: $base-spacing-unit - half(quarter($base-spacing-unit));
     margin-bottom: $base-spacing-unit - half(quarter($base-spacing-unit));
     font-size: $font-size-base;
     font-weight: $font-weight-medium;
