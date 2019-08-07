@@ -5,7 +5,7 @@ image: /images/plan.jpg
 title: >-
   Verfolgung – Ausgrenzung – Verwahrung. Die ehemalige städtische Arbeitsanstalt
   in Leipzig von 1892 bis heute
-date: '2019-07-08 19:00:00'
+date: '2019-07-08'
 ---
 **Veranstalter:** Stadt Leipzig; Gedenkstätte für Zwangsarbeit, Leipzig; Romano Sumnal e.V., Leipzig; Sächsisches Psychiatriemuseum, Leipzig
 
