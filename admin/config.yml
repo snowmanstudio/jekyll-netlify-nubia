@@ -46,6 +46,21 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Layout", name: "layout", widget: "hidden", default: "kontakt"}
           - {label: "Title", name: "title", widget: "string", tagname: "h1"}
           - {label: "Body", name: "body", widget: "markdown", required: false}
+      - label: "Datenschutz"
+        name: "datenschutz"
+        file: "_pages/datenschutz.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "bilddokumentation"}
+          - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+      - label: "Impressum"
+        name: "impressum"
+        file: "_pages/impressum.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "bilddokumentation"}
+          - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+      
   # Aktuelles
   - name: "aktuelles" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Aktuelles" # Used in the UI, ie.: "New Post"
