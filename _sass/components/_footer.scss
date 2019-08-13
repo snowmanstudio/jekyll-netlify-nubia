@@ -38,7 +38,11 @@
 
 .c-footer-list {
   margin-bottom: $base-spacing-unit;
-
+  
+  .c-nav__item {
+    text-transform: capitalize;
+  }
+  
   li {
     display: block;
     margin: 0;
