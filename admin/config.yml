@@ -32,13 +32,13 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Image (/images/name-des-bildes.jpg)", name: "image", widget: "string", required: false}
           - {label: "Title", name: "title", widget: "string", tagname: "h1"}
           - {label: "Body", name: "body", widget: "markdown", required: false}
-      - label: "Bilddokumentation"
-        name: "bilddoku"
-        file: "_pages/bilddokumentation.md"
-        fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "bilddokumentation"}
-          - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-          - {label: "Body", name: "body", widget: "markdown", required: false}
+      #- label: "Bilddokumentation"
+      #  name: "bilddoku"
+      #  file: "_pages/bilddokumentation.md"
+      #  fields:
+      #    - {label: "Layout", name: "layout", widget: "hidden", default: "bilddokumentation"}
+      #    - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      #    - {label: "Body", name: "body", widget: "markdown", required: false}
       - label: "Kontakt"
         name: "kontakt"
         file: "_pages/kontakt.md"
@@ -80,11 +80,11 @@ collections: # A list of collections the CMS should be able to edit
       #- {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
       #- {label: "Categories", name: "categories", widget: "string", required: false}
-  # Texte
-  - name: "texte" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Texte" # Used in the UI, ie.: "New Post"
+  # Dokumentation
+  - name: "dokumentation" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Dokumentation" # Used in the UI, ie.: "New Post"
     folder: "_posts" # The path to the folder where the documents are stored
-    filter: {field: "categories", value: "texte"}
+    filter: {field: "categories", value: "dokumentation"}
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     editor:
@@ -92,7 +92,7 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Category", name: "categories", widget: "hidden", default: "texte"}
+      - {label: "Category", name: "categories", widget: "hidden", default: "dokumentation"}
       - {label: "Image (/images/name-des-bildes.jpg)", name: "image", widget: "string", required: false}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
