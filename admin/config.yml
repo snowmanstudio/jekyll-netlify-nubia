@@ -72,6 +72,7 @@ collections: # A list of collections the CMS should be able to edit
       preview: false
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
+      - {label: "Veranstaltung/Aktuelles", name: "vaak", widget: "select", options: ["Aktuelles", "Veranstaltung"], required: true}
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Category", name: "categories", widget: "hidden", default: "aktuelles"}
       #- {label: "Image (/images/name-des-bildes.jpg)", name: "image", widget: "string", required: false}
@@ -101,3 +102,4 @@ collections: # A list of collections the CMS should be able to edit
       #- {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
       #- {label: "Categories", name: "categories", widget: "string", required: false}
+      - {label: "Audio File", name: "audio", widget: "file", multiple: true, required: false}
