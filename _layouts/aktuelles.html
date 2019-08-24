@@ -3,8 +3,9 @@ layout: default
 ---
 
 <div class='o-wrapper'>
+  <div class='o-grid'>
   
-  <div class='o-grid o-grid__col--1-3-l'>
+  <div class='o-grid__col--1-3-l'>
     <h3>Aktuelles</h3>
     {% for post in site.categories.dokumentation %}
     <div class='o-grid__col'>
@@ -30,7 +31,7 @@ layout: default
     {% endfor %}    
   </div>
   
-  <div class='o-grid o-grid__col--1-3-l'>
+  <div class='o-grid__col--1-3-l'>
     <h3>Veranstaltungen</h3>
     {% for post in site.categories.aktuelles %}
     <div class='o-grid__col'>
@@ -56,4 +57,5 @@ layout: default
     {% endfor %}    
   </div>
   
+ </div>
 </div>
