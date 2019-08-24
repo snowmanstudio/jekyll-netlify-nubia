@@ -21,7 +21,7 @@ collections: # A list of collections the CMS should be able to edit
         file: "_pages/index.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-          - {label: "Image (/images/name-des-bildes.jpg)", name: "image", widget: "string", required: false}
+          - {label: "Image", name: "image", widget: "image"}
           - {label: "Title", name: "title", widget: "string", tagname: "h1"}
           - {label: "Body", name: "body", widget: "markdown", required: false}
       - label: "Über uns"
@@ -29,7 +29,7 @@ collections: # A list of collections the CMS should be able to edit
         file: "_pages/ueber-uns.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-          - {label: "Image (/images/name-des-bildes.jpg)", name: "image", widget: "string", required: false}
+          - {label: "Image", name: "image", widget: "image"}
           - {label: "Title", name: "title", widget: "string", tagname: "h1"}
           - {label: "Body", name: "body", widget: "markdown", required: false}
       #- label: "Bilddokumentation"
@@ -75,7 +75,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Category", name: "categories", widget: "hidden", default: "aktuelles"}
       #- {label: "Image (/images/name-des-bildes.jpg)", name: "image", widget: "string", required: false}
-      - {label: "Image", name: "image", widget: "image", default: "/images/geschichte.jpg"}
+      - {label: "Image", name: "image", widget: "image"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
       #- {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
@@ -94,7 +94,7 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Category", name: "categories", widget: "hidden", default: "dokumentation"}
-      - {label: "Image (/images/name-des-bildes.jpg)", name: "image", widget: "string", required: false}
+      - {label: "Image", name: "image", widget: "image"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
       #- {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
