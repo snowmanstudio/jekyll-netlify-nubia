@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: dokumentation
-image: /images/plan.jpg
+image: /uploads/plan.jpg
 title: >-
   Verfolgung – Ausgrenzung – Verwahrung. Die ehemalige städtische Arbeitsanstalt
   in Leipzig von 1892 bis heute
