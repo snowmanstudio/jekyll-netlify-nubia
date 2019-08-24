@@ -81,6 +81,12 @@ collections: # A list of collections the CMS should be able to edit
       #- {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
       #- {label: "Categories", name: "categories", widget: "string", required: false}
+      - label: "Audio File"
+          name: "audio"
+          widget: "file"
+          media_library:
+            config:
+              multiple: true
   # Dokumentation
   - name: "dokumentation" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Dokumentation" # Used in the UI, ie.: "New Post"
