@@ -1,6 +1,6 @@
 ---
 layout: page
-image: /images/geschichte.jpg
+image: /uploads/geschichte.jpg
 title: Geschichte des Ortes
 ---
 Auf insgesamt 28.000 m² wurde im Jahr 1892 die „Zwangsarbeitsanstalt zu St. Georg“ in der Leipziger Riebeckstraße 63 eröffnet, die ein Ensemble aus mehreren Backsteingebäuden umfasste, das heute noch weitgehend erhalten ist. Seit ihrer Gründung stand die „Städtische Arbeitsanstalt“ für eine kommunale ‚Fürsorge‘-politik, die Armut, Arbeitslosigkeit und psychischer Erkrankung mit Ausgrenzung und Arbeitszwang begegnete. Während der NS-Zeit diente die Arbeitsanstalt darüber hinaus als Sammelstelle für Juden, Sinti und Roma und hatte die Funktion einer zentralen Kontroll- und Verteilerstelle von NS-Zwangsarbeit. In der DDR wurden die Gebäude als Venerologische Station und Einrichtung der Psychiatrie weitergenutzt.
