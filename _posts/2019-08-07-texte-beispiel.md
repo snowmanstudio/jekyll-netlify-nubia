@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: texte
+categories: dokumentation
 title: Texte Beispiel
 date: '2019-08-07'
 ---
