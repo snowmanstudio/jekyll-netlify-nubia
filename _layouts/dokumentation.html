@@ -3,11 +3,21 @@ layout: default
 ---
 
 <div class='o-wrapper'>
-  <div class='o-grid js-grid'>
-    
-{% for post in site.categories.dokumentation %}
-    {% include post-card.html %}
-{% endfor %}
-  </div>
+  <div class='o-grid'>
+    {% for post in site.categories.dokumentation %}
+    <div class='o-grid__col o-grid__col--2-3-m'>
+      <div class='c-post'>
 
+        <div class='c-content'>
+           <a href='{{ post.url | prepend: site.baseurl }}>
+            <h3>{{ post.title }}</h3>
+            {{ post.excerpt }}
+           </a>
+        </div>
+        
+      </div>
+    </div>
+    {% endfor %}
+    
+  </div>
 </div>
