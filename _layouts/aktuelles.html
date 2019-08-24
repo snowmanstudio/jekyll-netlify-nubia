@@ -11,7 +11,8 @@ layout: default
         <h4 class='c-archive__title'>Aktuelles</h4>
       </div>
     </div>
-    {% for post in site.categories.aktuelles && post.vaak =="Aktuelles" %}
+    {% for post in site.categories.aktuelles %}
+      {% if post.vaak contains 'Aktuelles' %}
     <div class='o-grid__col'>
       <div class='c-post'>
 
@@ -32,6 +33,7 @@ layout: default
         
       </div>
     </div>
+      {% endif %}
     {% endfor %}    
   </div>
   
@@ -41,7 +43,8 @@ layout: default
         <h4 class='c-archive__title'>Veranstaltungen</h4>
       </div>
     </div>
-    {% for post in site.categories.aktuelles && post.vaak =="Veranstaltung" %}
+    {% for post in site.categories.aktuelles %}
+      {% if post.vaak contains 'Veranstaltung' %}
     <div class='o-grid__col'>
       <div class='c-post'>
 
@@ -62,6 +65,7 @@ layout: default
         
       </div>
     </div>
+      {% endif %}
     {% endfor %}    
   </div>
   
