@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: aktuelles
-image: /images/geschichte.jpg
+image: /uploads/geschichte.jpg
 title: Aktuelles Beispiel
 date: '2019-08-07'
 ---
@@ -9,7 +9,7 @@ date: '2019-08-07'
 
   Your browser does not support the <code>audio</code> element.
 
-  <source src="/images/DigitalWorld.mp3" type="audio/mp3">
+  <source src="/uploads/DigitalWorld.mp3" type="audio/mp3">
 
 </audio>
 
