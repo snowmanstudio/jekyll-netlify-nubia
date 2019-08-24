@@ -6,7 +6,9 @@ layout: default
   <div class='o-grid'>
   
   <div class='o-grid__col--2-4-l'>
-    <h5 class='c-widget__title'>Aktuelles</h5>
+    <div class='o-grid__col'>
+      <h5 class='c-widget__title'>Aktuelles</h5>
+    </div>
     {% for post in site.categories.dokumentation %}
     <div class='o-grid__col'>
       <div class='c-post'>
@@ -32,7 +34,9 @@ layout: default
   </div>
   
   <div class='o-grid__col--2-4-l'>
-    <h5 class='c-widget__title'>Veranstaltungen</h5>
+    <div class='o-grid__col'>
+      <h5 class='c-widget__title'>Veranstaltungen</h5>
+    </div>
     {% for post in site.categories.aktuelles %}
     <div class='o-grid__col'>
       <div class='c-post'>
