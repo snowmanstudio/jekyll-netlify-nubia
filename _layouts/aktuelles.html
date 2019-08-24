@@ -11,7 +11,7 @@ layout: default
         <h4 class='c-archive__title'>Aktuelles</h4>
       </div>
     </div>
-    {% for post in site.categories.dokumentation %}
+    {% for post in site.categories.aktuelles && post.vaak =="Aktuelles" %}
     <div class='o-grid__col'>
       <div class='c-post'>
 
@@ -41,7 +41,7 @@ layout: default
         <h4 class='c-archive__title'>Veranstaltungen</h4>
       </div>
     </div>
-    {% for post in site.categories.aktuelles %}
+    {% for post in site.categories.aktuelles && post.vaak =="Veranstaltung" %}
     <div class='o-grid__col'>
       <div class='c-post'>
 
