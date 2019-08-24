@@ -1,6 +1,7 @@
 ---
 layout: post
 categories: aktuelles
+vaak: Aktuelles
 image: /uploads/kontakt.jpg
 title: 'PM: Gründung „Initiativkreis Riebeckstraße 63“ '
 date: '2019-07-08'
