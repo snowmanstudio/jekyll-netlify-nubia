@@ -17,7 +17,8 @@ layout: default
             <h3>{{ post.title }}</h3>
             <div class='c-post-card__meta'>
               <time class='c-post-card__date' datetime='{{ post.date | date_to_xmlschema }}' title='{{ post.date | date: '%d. %b %Y' }}'>{{ post.date | date: '%d %b %Y' }}</time>
-            </div> 
+            </div>
+            <br>
             <small>{{ post.excerpt }}</small>
            </a>
         </div>
