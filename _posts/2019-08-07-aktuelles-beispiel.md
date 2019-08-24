@@ -1,6 +1,7 @@
 ---
 layout: post
 categories: aktuelles
+vaak: Aktuelles
 image: /uploads/geschichte.jpg
 title: Aktuelles Beispiel
 date: '2019-08-07'
