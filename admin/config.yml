@@ -103,8 +103,9 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown", required: false}
       #- {label: "Categories", name: "categories", widget: "string", required: false}
       #- {label: "Audio File", name: "audio", widget: "file", multiple: true, required: false}
-      - label: "Audio File"
-        name: "audio"
-        widget: "file"
-        required: false
-        allow_multiple: true
+      - label: 'Audio'
+        name: 'audio'
+        widget: 'list'
+        fields:
+          - { label: 'Audio Titel', name: 'mp3-title', widget: 'string' }
+          - { label: "MP3 File", name: "mp3", widget: "file", required: false }
