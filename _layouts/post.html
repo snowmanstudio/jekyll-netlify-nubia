@@ -21,8 +21,11 @@ layout: default
           {{ content }}
         </div>
         
-        {% if page.audio %}
-        <audio controls="controls">  Your browser does not support the <code>audio</code> element.  <source src="{{ page.audio }}" type="audio/mp3"></audio>
+        {% if page.Audiomitschnitt %}
+          {% for audio in page.Audiomitschnitt %}
+             {{ audio.mp3-title }}
+             <audio controls="controls">  Your browser does not support the <code>audio</code> element.  <source src="{{ audio.mp3 }}" type="audio/mp3"></audio>
+          {% endfor %}
         {% endif %}
         
         <div class='o-grid'>
