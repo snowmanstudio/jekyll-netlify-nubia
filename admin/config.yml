@@ -103,10 +103,10 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown", required: false}
       #- {label: "Categories", name: "categories", widget: "string", required: false}
       #- {label: "Audio File", name: "audio", widget: "file", multiple: true, required: false}
-      - label: "Audio Files"
+      - {label: "Audio Files"
           name: "audio"
           widget: "file"
           required: false
           media_library:
             config:
-              multiple: true
+              multiple: true}
