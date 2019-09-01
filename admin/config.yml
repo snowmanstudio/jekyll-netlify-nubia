@@ -82,7 +82,12 @@ collections: # A list of collections the CMS should be able to edit
       #- {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
       #- {label: "Categories", name: "categories", widget: "string", required: false}
-      - {label: "Audio File", name: "audio", widget: "file", multiple: true, required: false}
+      - label: 'Audiomitschnitte'
+        name: 'Audiomitschnitt'
+        widget: 'list'
+        fields:
+          - { label: 'Titel', name: 'mp3-title', widget: 'string' }
+          - { label: 'MP3', name: 'mp3', widget: 'file' }
   # Dokumentation
   - name: "dokumentation" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Dokumentation" # Used in the UI, ie.: "New Post"
@@ -101,8 +106,9 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
       #- {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
-      - label: 'Audio'
-        name: 'audio'
+      - label: 'Audiomitschnitte'
+        name: 'Audiomitschnitt'
         widget: 'list'
         fields:
-          - { label: 'Audio Titel', name: 'mp3-title', widget: 'string' }
+          - { label: 'Titel', name: 'mp3-title', widget: 'string' }
+          - { label: 'MP3', name: 'mp3', widget: 'file' }
