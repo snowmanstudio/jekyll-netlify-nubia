@@ -106,4 +106,3 @@ collections: # A list of collections the CMS should be able to edit
         widget: 'list'
         fields:
           - { label: 'Audio Titel', name: 'mp3-title', widget: 'string' }
-          - { label: 'MP3 File', name: 'mp3', widget: 'file' }
