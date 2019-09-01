@@ -107,6 +107,4 @@ collections: # A list of collections the CMS should be able to edit
         name: "audio"
         widget: "file"
         required: false
-        media_library:
-          config:
-            allow_multiple: true
+        allow_multiple: true
