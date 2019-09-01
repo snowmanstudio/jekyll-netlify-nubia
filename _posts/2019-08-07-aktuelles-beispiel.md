@@ -2,7 +2,7 @@
 layout: post
 categories: aktuelles
 vaak: Aktuelles
-image: /uploads/geschichte.jpg
+image: /uploads/IMG_9022_31.jpg
 title: Aktuelles Beispiel
 date: '2019-08-07'
 ---
