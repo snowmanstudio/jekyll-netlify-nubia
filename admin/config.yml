@@ -101,8 +101,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
       #- {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
-      #- {label: "Categories", name: "categories", widget: "string", required: false}
-      #- {label: "Audio File", name: "audio", widget: "file", multiple: true, required: false}
       - label: 'Audio'
         name: 'audio'
         widget: 'list'
