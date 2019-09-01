@@ -109,4 +109,4 @@ collections: # A list of collections the CMS should be able to edit
         required: false
         media_library:
           config:
-            multiple: true
+            allow_multiple: true
