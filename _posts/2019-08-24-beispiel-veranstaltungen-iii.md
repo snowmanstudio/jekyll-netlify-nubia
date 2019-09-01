@@ -2,7 +2,7 @@
 layout: post
 categories: aktuelles
 vaak: Veranstaltung
-image: /uploads/404.jpg
+image: /uploads/IMG_8964_10.jpg
 title: Beispiel Veranstaltungen III
 date: '2019-08-18'
 ---
