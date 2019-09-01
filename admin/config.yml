@@ -94,13 +94,6 @@ collections: # A list of collections the CMS should be able to edit
       preview: false
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
-      - 
-        label: "Audio File"
-        name: "audio"
-        widget: "file"
-        media_library:
-          config:
-            multiple: true
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Category", name: "categories", widget: "hidden", default: "dokumentation"}
       - {label: "Image", name: "image", widget: "image"}
@@ -110,3 +103,10 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown", required: false}
       #- {label: "Categories", name: "categories", widget: "string", required: false}
       #- {label: "Audio File", name: "audio", widget: "file", multiple: true, required: false}
+      - label: "Audio File"
+        name: "audio"
+        widget: "file"
+        required: false
+        media_library:
+          config:
+            multiple: true
