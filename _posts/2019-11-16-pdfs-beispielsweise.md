@@ -2,7 +2,7 @@
 layout: post
 categories: dokumentation
 image: /uploads/IMG_9009_28.jpg
-title: PDFs Beispielsweise
+title: PDFs Beispiele
 date: '2019-11-16'
 PDF:
   - pdf-file: /uploads/gfzl_flyer_deutsch.pdf
