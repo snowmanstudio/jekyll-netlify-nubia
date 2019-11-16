@@ -3,13 +3,13 @@
 \*------------------------------------*/
 
 .c-header {
-  padding: double($base-spacing-unit) 0;
+  padding: $base-spacing-unit 0;
 
   @include mq($from: tablet) {
-    padding: (double($base-spacing-unit) + $base-spacing-unit) 0;
+    padding: double($base-spacing-unit) 0;
   }
 
   @include mq($from: desktop) {
-    padding: quadruple($base-spacing-unit) 0;
+    padding: double($base-spacing-unit) 0;
   }
 }
