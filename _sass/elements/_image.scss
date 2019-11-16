@@ -7,3 +7,10 @@ img {
   max-width: 100%;
   font-style: italic;
 }
+
+.c-content img {
+  display: block;
+  max-width: 50%;
+  font-style: italic;
+  float: right;
+}
