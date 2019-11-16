@@ -11,6 +11,27 @@ $btn-color-hover: $color-white;
 $btn-border-color: $color-black;
 $btn-border-color-hover: $color-brand;
 
+.c-btn-mitmachen {
+  display: inline-block;
+  padding: $base-spacing-unit double($base-spacing-unit);
+  border-radius: 0;
+
+  cursor: pointer;
+  transition: half($global-transition);
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  outline: none;
+  line-height: initial;
+  border: none;
+  background-color: $btn-bg;
+  font-size: $font-size-medium;
+  font-family: $font-sans-serif;
+  border: 1px solid $btn-border-color;
+  font-size: $font-size-small;
+  letter-spacing: $global-letter-spacing;
+}
+
 .c-btn {
   display: inline-block;
   padding: $base-spacing-unit double($base-spacing-unit);
