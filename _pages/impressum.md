@@ -4,19 +4,12 @@ title: Impressum
 ---
 **Impressum**
 
-Erinnern an NS-Verbrechen in Leipzig e.V. 
-
-Permoserstraße 15 
-
+Erinnern an NS-Verbrechen in Leipzig e.V. \
+Permoserstraße 15 \
 04318 Leipzig 
 
-
-
-Telefon +49(0)341-2352075 
-
- E-Mail: info \[at] zwangsarbeit-in-leipzig \[dot].de
-
-
+Telefon +49(0)341-2352075\
+E-Mail: info \[at] zwangsarbeit-in-leipzig \[dot].de
 
 Die presserechtliche Verantwortung liegt beim Verein "Erinnern an NS-Verbrechen in Leipzig e.V."
 
