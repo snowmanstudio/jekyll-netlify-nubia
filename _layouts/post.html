@@ -28,6 +28,12 @@ layout: default
           {% endfor %}
         {% endif %}
         
+        {% if page.PDF %}
+          {% for this_pdf in page.PDF %}
+            [DOWNLOAD] <a href="{{ this_pdf.pdf-file }}">{{ this_pdf.pdf-title }}</a>
+          {% endfor %}
+        {% endif %}
+        
         <div class='o-grid'>
           <div class='o-grid__col o-grid__col--4-4-s o-grid__col--2-4-m o-grid__col--3-4-l'>
             <div class='c-tags'>
