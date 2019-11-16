@@ -29,8 +29,9 @@ layout: default
         {% endif %}
         
         {% if page.PDF %}
+          <b>PDF Download</b><br>
           {% for this_pdf in page.PDF %}
-            [DOWNLOAD] <a href="{{ this_pdf.pdf-file }}">{{ this_pdf.pdf-title }}</a>
+            <br><a href="{{ this_pdf.pdf-file }}">{{ this_pdf.pdf-title }}</a>
           {% endfor %}
         {% endif %}
         
