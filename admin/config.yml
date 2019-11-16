@@ -88,6 +88,12 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - { label: 'Titel', name: 'mp3-title', widget: 'string' }
           - { label: 'MP3', name: 'mp3', widget: 'file' }
+      - label: 'PDFs'
+        name: 'PDF'
+        widget: 'list'
+        fields:
+          - { label: 'Titel', name: 'pdf-title', widget: 'string' }
+          - { label: 'PDF Datei', name: 'pdf-file', widget: 'file' }
   # Dokumentation
   - name: "dokumentation" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Dokumentation" # Used in the UI, ie.: "New Post"
@@ -112,3 +118,9 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - { label: 'Titel', name: 'mp3-title', widget: 'string' }
           - { label: 'MP3', name: 'mp3', widget: 'file' }
+      - label: 'PDFs'
+        name: 'PDF'
+        widget: 'list'
+        fields:
+          - { label: 'Titel', name: 'pdf-title', widget: 'string' }
+          - { label: 'PDF Datei', name: 'pdf-file', widget: 'file' }
