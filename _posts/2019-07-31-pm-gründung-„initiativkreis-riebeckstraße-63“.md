@@ -3,9 +3,9 @@ layout: post
 categories: aktuelles
 vaak: Aktuelles
 image: /uploads/kontakt.jpg
-title: 'PM: Gründung „Initiativkreis Riebeckstraße 63“ '
-date: '2019-07-08'
-audio: ''
+title: "PM: Gründung „Initiativkreis Riebeckstraße 64“ "
+date: 2019-07-08
+audio: ""
 ---
 Letzten Mittwoch, am 3. Juli 2019 hat sich am historischen Ort ein Initiativkreis aus rund 30 engagierten Einzelpersonen gegründet. Der offene Kreis wird sich in Zukunft für **ein Lernen und Gedenken am Ort der ehemaligen städtischen Arbeitsanstalt** in der Riebeckstraße 63 einsetzen. 
 
