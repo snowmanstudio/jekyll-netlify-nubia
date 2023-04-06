@@ -1,6 +1,6 @@
 ---
 layout: page
-image: /uploads/future-ofonline-teaching.jpg
+image: /uploads/future-of-online-teaching.jpg
 title: Future of Online teaching
 ---
 In the past year, online teaching has become the new norm, and it is not going away anytime soon. With advancements in technology, the future of online teaching is exciting and unpredictable. In this blog post, we will explore the latest trends and predictions in online teaching, from personalized learning to the rise of virtual reality classrooms.
