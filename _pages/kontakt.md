@@ -1,5 +1,5 @@
 ---
-layout: kontakt
-title: Kontakt
+layout: contact
+title: contact
 ---
 

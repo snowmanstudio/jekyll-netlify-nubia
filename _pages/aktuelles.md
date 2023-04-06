@@ -1,4 +1,0 @@
----
-layout: aktuelles
-title: Aktuelles
----

@@ -20,6 +20,6 @@ Wir erheben, nutzen und geben Ihre personenbezogenen Daten nur dann weiter, wenn
 
 
 
-**Umgang mit Kontaktdaten**
+**Umgang mit contactdaten**
 
-Nehmen Sie mit uns durch die angebotenen Kontaktmöglichkeiten Verbindung auf, werden Ihre Angaben gespeichert, damit auf diese zur Bearbeitung und Beantwortung Ihrer Anfrage zurückgegriffen werden kann. Ohne Ihre Einwilligung werden diese Daten nicht an Dritte weitergegeben.
+Nehmen Sie mit uns durch die angebotenen contactmöglichkeiten Verbindung auf, werden Ihre Angaben gespeichert, damit auf diese zur Bearbeitung und Beantwortung Ihrer Anfrage zurückgegriffen werden kann. Ohne Ihre Einwilligung werden diese Daten nicht an Dritte weitergegeben.
