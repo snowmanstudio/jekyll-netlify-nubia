@@ -2,7 +2,7 @@
 layout: post
 categories: aktuelles
 vaak: Aktuelles
-image: /uploads/tools-for-online-teaching.jpg
+image: /uploads/online-teaching.jpg
 title: 10 Tips for Effective Online Teaching
 date: 2019-08-07
 ---
