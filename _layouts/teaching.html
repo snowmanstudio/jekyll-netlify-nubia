@@ -8,11 +8,11 @@ layout: default
   <div class='o-grid__col--2-4-l'>
     <div class='o-grid__col'>
       <div class='c-archive'>
-        <h4 class='c-archive__title'>Teaching</h4>
+        <h4 class='c-archive__title'>teaching</h4>
       </div>
     </div>
-    {% for post in site.categories.Teaching %}
-      {% if post.vaak contains 'Teaching' %}
+    {% for post in site.categories.teaching %}
+      {% if post.vaak contains 'teaching' %}
     <div class='o-grid__col'>
       <div class='c-post'>
 
@@ -43,7 +43,7 @@ layout: default
         <h4 class='c-archive__title'>Veranstaltungen</h4>
       </div>
     </div>
-    {% for post in site.categories.Teaching %}
+    {% for post in site.categories.teaching %}
       {% if post.vaak contains 'Veranstaltung' %}
     <div class='o-grid__col'>
       <div class='c-post'>

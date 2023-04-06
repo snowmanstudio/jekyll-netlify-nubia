@@ -1,9 +1,9 @@
 ---
 layout: post
 categories: teaching
-vaak: Teaching
+vaak: teaching
 image: /uploads/online-teaching.jpg
-title: 10 Tips for Effective Online Teaching
+title: 10 Tips for Effective Online teaching
 date: 2023-03-07
 ---
 With the rise of remote learning, online teaching has become a crucial part of education. Whether you are a seasoned educator or new to the world of online teaching, it can be challenging to navigate the unique aspects of this teaching style. Here are 10 tips to help you be a more effective online teacher:
@@ -42,7 +42,7 @@ Providing feedback is crucial to online teaching. Make sure to provide construct
 
 
 
-### 5. Use a Variety of Teaching Methods
+### 5. Use a Variety of teaching Methods
 
 
 

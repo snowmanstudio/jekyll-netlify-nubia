@@ -1,9 +1,9 @@
 ---
 layout: post
 categories: teaching
-vaak: Teaching
+vaak: teaching
 image: /uploads/tools-for-online-teaching.jpg
-title: Top Tools and Platforms for Online Teaching
+title: Top Tools and Platforms for Online teaching
 date: 2023-03-24
 ---
 Online teaching has become increasingly popular in recent years, especially in the wake of the COVID-19 pandemic. With more and more students learning from home, the demand for effective online teaching tools and platforms has never been higher. In this article, we'll explore some of the top tools and platforms that educators can use to enhance their online teaching experience.

@@ -1,4 +1,4 @@
 ---
 layout: teaching
-title: Teaching
+title: teaching
 ---

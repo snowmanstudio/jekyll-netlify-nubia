@@ -1,9 +1,9 @@
 ---
 layout: post
 categories: teaching
-vaak: Teaching
+vaak: teaching
 image: /uploads/future-of-online-teaching.jpg
-title: "The Future of Online Teaching: Trends and Predictions"
+title: "The Future of Online teaching: Trends and Predictions"
 date: 2023-03-15
 Audiomitschnitt: []
 PDF: []
@@ -63,7 +63,7 @@ Online teaching can teach students how to use digital tools for research, commun
 
 Developing digital literacy skills will help students become more proficient with technology
 
-The Future of Online Teaching: Conclusion
+The Future of Online teaching: Conclusion
 
 The future of online teaching is exciting and unpredictable. Personalized learning, virtual reality classrooms, interactive learning tools, soft skills, and digital literacy are just a few of the trends and predictions that will shape the future of online teaching. As online teaching continues to evolve and improve, it is important for educators to stay informed and adapt to new teaching methods and technologies. By embracing these trends and predictions, we can create a more engaging and effective online learning experience for students.
 
