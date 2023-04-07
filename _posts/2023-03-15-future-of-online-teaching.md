@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: teaching
+categories: Teaching
 vaak: teaching
 image: /uploads/future-of-online-teaching.jpg
 title: "The Future of Online teaching: Trends and Predictions"
