@@ -1,9 +1,9 @@
 ---
 layout: post
-categories: Teaching
+categories: teaching
 vaak: teaching
 image: /uploads/future-of-online-teaching.jpg
-title: "The Future of Online teaching: Trends and Predictions"
+title: The Future of Online teaching Trends and Predictions
 date: 2023-03-15
 Audiomitschnitt: []
 PDF: []
